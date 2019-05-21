@@ -14,4 +14,8 @@ export class AppComponent {
     return this.model.user;
   }
 
+  getTodoItems(){
+    return this.model.items;
+  }
+
 }

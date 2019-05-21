@@ -5,7 +5,7 @@ export class Model {
     constructor() {
         this.user = "Ali";
         this.items = [new TodoItem("Buy Flowers", false),
-                      new TodoItem("Get Shoes", false),
+                      new TodoItem("Get Shoes", true),
                       new TodoItem("Collect Tickets", false),
                       new TodoItem("Study for the new Job", false)]
     }
